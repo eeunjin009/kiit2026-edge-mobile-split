@@ -1,0 +1,1291 @@
+{
+  "constants": {
+    "TAU": 0.179,
+    "TAU_SENS": 0.173,
+    "N_TOTAL": 26,
+    "NM_LIST": [
+      0,
+      6,
+      11,
+      16,
+      21,
+      26
+    ],
+    "LAT": 32768,
+    "EMB": 118272,
+    "IMG": 786432,
+    "LINKS": {
+      "WiFi": {
+        "B_bps": 100000000.0,
+        "l_n_s": 0.01
+      },
+      "5G": {
+        "B_bps": 25000000.0,
+        "l_n_s": 0.04
+      },
+      "4G": {
+        "B_bps": 10000000.0,
+        "l_n_s": 0.08
+      }
+    },
+    "S0_LIST": [
+      0.0,
+      0.2
+    ],
+    "LAM_EX": 0.2,
+    "T4_TM": 1.128,
+    "SCENARIOS": {
+      "r2.0": 2.0,
+      "r2.2": 2.2,
+      "T4": null
+    },
+    "PSNR_measured_copied": {
+      "6": [
+        22.4,
+        2.41
+      ],
+      "11": [
+        21.01,
+        2.3
+      ],
+      "16": [
+        18.91,
+        2.14
+      ],
+      "21": [
+        15.84,
+        2.02
+      ],
+      "26": [
+        13.52,
+        1.97
+      ]
+    },
+    "CLIP_measured_copied": {
+      "0": 0.3021,
+      "6": 0.2981,
+      "11": 0.2974,
+      "16": 0.297,
+      "21": 0.2905,
+      "26": 0.2958
+    }
+  },
+  "table1": [
+    {
+      "nm": 0,
+      "ne": 26,
+      "S_s": 4.654,
+      "lam_max": 0.214869,
+      "cap_x": 1.0,
+      "rho_ex": 0.9308,
+      "Wq_ex_s": 31.300168,
+      "NMtM_r2.2_s": 0.0,
+      "T_r2.2_lam0_s": 4.945658,
+      "T_r2.2_ex_s": 36.245826,
+      "NMtM_T4_s": 0.0,
+      "T_T4_lam0_s": 4.945658,
+      "T_T4_ex_s": 36.245826,
+      "psnr_mean": null,
+      "psnr_sd": null,
+      "clip_mean": 0.3021
+    },
+    {
+      "nm": 6,
+      "ne": 20,
+      "S_s": 3.58,
+      "lam_max": 0.27933,
+      "cap_x": 1.3,
+      "rho_ex": 0.716,
+      "Wq_ex_s": 4.512817,
+      "NMtM_r2.2_s": 2.3628,
+      "T_r2.2_lam0_s": 6.293277,
+      "T_r2.2_ex_s": 10.806094,
+      "NMtM_T4_s": 6.768,
+      "T_T4_lam0_s": 10.698477,
+      "T_T4_ex_s": 15.211294,
+      "psnr_mean": 22.4,
+      "psnr_sd": 2.41,
+      "clip_mean": 0.2981
+    },
+    {
+      "nm": 11,
+      "ne": 15,
+      "S_s": 2.685,
+      "lam_max": 0.372439,
+      "cap_x": 1.733333,
+      "rho_ex": 0.537,
+      "Wq_ex_s": 1.557068,
+      "NMtM_r2.2_s": 4.3318,
+      "T_r2.2_lam0_s": 7.367277,
+      "T_r2.2_ex_s": 8.924345,
+      "NMtM_T4_s": 12.408,
+      "T_T4_lam0_s": 15.443477,
+      "T_T4_ex_s": 17.000545,
+      "psnr_mean": 21.01,
+      "psnr_sd": 2.3,
+      "clip_mean": 0.2974
+    },
+    {
+      "nm": 16,
+      "ne": 10,
+      "S_s": 1.79,
+      "lam_max": 0.558659,
+      "cap_x": 2.6,
+      "rho_ex": 0.358,
+      "Wq_ex_s": 0.499081,
+      "NMtM_r2.2_s": 6.3008,
+      "T_r2.2_lam0_s": 8.441277,
+      "T_r2.2_ex_s": 8.940358,
+      "NMtM_T4_s": 18.048,
+      "T_T4_lam0_s": 20.188477,
+      "T_T4_ex_s": 20.687558,
+      "psnr_mean": 18.91,
+      "psnr_sd": 2.14,
+      "clip_mean": 0.297
+    },
+    {
+      "nm": 21,
+      "ne": 5,
+      "S_s": 0.895,
+      "lam_max": 1.117318,
+      "cap_x": 5.2,
+      "rho_ex": 0.179,
+      "Wq_ex_s": 0.097567,
+      "NMtM_r2.2_s": 8.2698,
+      "T_r2.2_lam0_s": 9.515277,
+      "T_r2.2_ex_s": 9.612844,
+      "NMtM_T4_s": 23.688,
+      "T_T4_lam0_s": 24.933477,
+      "T_T4_ex_s": 25.031044,
+      "psnr_mean": 15.84,
+      "psnr_sd": 2.02,
+      "clip_mean": 0.2905
+    },
+    {
+      "nm": 26,
+      "ne": 0,
+      "S_s": 0.0,
+      "lam_max": "inf",
+      "cap_x": "inf",
+      "rho_ex": 0.0,
+      "Wq_ex_s": 0.0,
+      "NMtM_r2.2_s": 10.2388,
+      "T_r2.2_lam0_s": 10.589277,
+      "T_r2.2_ex_s": 10.589277,
+      "NMtM_T4_s": 29.328,
+      "T_T4_lam0_s": 29.678477,
+      "T_T4_ex_s": 29.678477,
+      "psnr_mean": 13.52,
+      "psnr_sd": 1.97,
+      "clip_mean": 0.2958
+    }
+  ],
+  "lamstar_5G_s0_0": {
+    "r2.0": {
+      "6": {
+        "lam_star": 0.104479,
+        "ratio_pct": 48.6246
+      },
+      "11": {
+        "lam_star": 0.113761,
+        "ratio_pct": 52.944476
+      },
+      "16": {
+        "lam_star": 0.124047,
+        "ratio_pct": 57.731403
+      },
+      "21": {
+        "lam_star": 0.134301,
+        "ratio_pct": 62.503766
+      },
+      "26": {
+        "lam_star": 0.143844,
+        "ratio_pct": 66.945171
+      }
+    },
+    "r2.2": {
+      "6": {
+        "lam_star": 0.112412,
+        "ratio_pct": 52.316686
+      },
+      "11": {
+        "lam_star": 0.122372,
+        "ratio_pct": 56.951874
+      },
+      "16": {
+        "lam_star": 0.13293,
+        "ratio_pct": 61.865417
+      },
+      "21": {
+        "lam_star": 0.143054,
+        "ratio_pct": 66.577263
+      },
+      "26": {
+        "lam_star": 0.152139,
+        "ratio_pct": 70.805277
+      }
+    },
+    "T4": {
+      "6": {
+        "lam_star": 0.168594,
+        "ratio_pct": 78.463868
+      },
+      "11": {
+        "lam_star": 0.179336,
+        "ratio_pct": 83.463156
+      },
+      "16": {
+        "lam_star": 0.187123,
+        "ratio_pct": 87.086987
+      },
+      "21": {
+        "lam_star": 0.192555,
+        "ratio_pct": 89.615315
+      },
+      "26": {
+        "lam_star": 0.196391,
+        "ratio_pct": 91.400534
+      }
+    }
+  },
+  "sensitivity": {
+    "link_effect_pp": 1.599749,
+    "link_effect_at": "r2.0, nm=6, s0=0.0, 4G vs 5G",
+    "s0_effect_pp": 0.927093,
+    "s0_effect_at": "r2.0, nm=26, WiFi, s0=0.2 vs 0.0"
+  },
+  "checks": [
+    {
+      "name": "A_LAT",
+      "passed": true,
+      "detail": "LAT=32768"
+    },
+    {
+      "name": "A_EMB",
+      "passed": true,
+      "detail": "EMB=118272"
+    },
+    {
+      "name": "A_EMB+LAT",
+      "passed": true,
+      "detail": "151040"
+    },
+    {
+      "name": "A_IMG",
+      "passed": true,
+      "detail": "IMG=786432"
+    },
+    {
+      "name": "A_EMB+2LAT+IMG",
+      "passed": true,
+      "detail": "970240"
+    },
+    {
+      "name": "A_comm_WiFi_nm0",
+      "passed": true,
+      "detail": "actual=0.07291456 expected=0.07291000 tol=1e-05"
+    },
+    {
+      "name": "A_comm_WiFi_nm>0",
+      "passed": true,
+      "detail": "actual=0.08761920 expected=0.08762000 tol=1e-05"
+    },
+    {
+      "name": "A_comm_5G_nm0",
+      "passed": true,
+      "detail": "actual=0.29165824 expected=0.29166000 tol=1e-05"
+    },
+    {
+      "name": "A_comm_5G_nm>0",
+      "passed": true,
+      "detail": "actual=0.35047680 expected=0.35048000 tol=1e-05"
+    },
+    {
+      "name": "A_comm_4G_nm0",
+      "passed": true,
+      "detail": "actual=0.70914560 expected=0.70915000 tol=1e-05"
+    },
+    {
+      "name": "A_comm_4G_nm>0",
+      "passed": true,
+      "detail": "actual=0.85619200 expected=0.85619000 tol=1e-05"
+    },
+    {
+      "name": "A_ne_plus_nm_26",
+      "passed": true,
+      "detail": "all NM_LIST"
+    },
+    {
+      "name": "B_Wq(0.20,4.654)",
+      "passed": true,
+      "detail": "actual=31.30016763 expected=31.30017000 tol=0.0001"
+    },
+    {
+      "name": "B_Wq(0,4.654)",
+      "passed": true,
+      "detail": "actual=0.00000000 expected=0.00000000 tol=0"
+    },
+    {
+      "name": "B_Wq(5.0,0)",
+      "passed": true,
+      "detail": "actual=0.00000000 expected=0.00000000 tol=0"
+    },
+    {
+      "name": "B_Wq(0.25,4.654)_inf",
+      "passed": true,
+      "detail": "actual=inf expected=inf tol=0"
+    },
+    {
+      "name": "B_Wq(1.0,1.0)_inf",
+      "passed": true,
+      "detail": "actual=inf expected=inf tol=0"
+    },
+    {
+      "name": "B_nm26_S0",
+      "passed": true,
+      "detail": "S=0.0"
+    },
+    {
+      "name": "B_nm26_Wq0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "B_nm26_T_r2.0",
+      "passed": true,
+      "detail": "actual=9.65847680 expected=9.65847680 tol=1e-12"
+    },
+    {
+      "name": "B_nm26_T_r2.2",
+      "passed": true,
+      "detail": "actual=10.58927680 expected=10.58927680 tol=1e-12"
+    },
+    {
+      "name": "B_nm26_T_T4",
+      "passed": true,
+      "detail": "actual=29.67847680 expected=29.67847680 tol=1e-12"
+    },
+    {
+      "name": "Ca_ne_nm0",
+      "passed": true,
+      "detail": "actual=26.00000000 expected=26.00000000 tol=0"
+    },
+    {
+      "name": "Ca_ne_nm6",
+      "passed": true,
+      "detail": "actual=20.00000000 expected=20.00000000 tol=0"
+    },
+    {
+      "name": "Ca_ne_nm11",
+      "passed": true,
+      "detail": "actual=15.00000000 expected=15.00000000 tol=0"
+    },
+    {
+      "name": "Ca_ne_nm16",
+      "passed": true,
+      "detail": "actual=10.00000000 expected=10.00000000 tol=0"
+    },
+    {
+      "name": "Ca_ne_nm21",
+      "passed": true,
+      "detail": "actual=5.00000000 expected=5.00000000 tol=0"
+    },
+    {
+      "name": "Ca_ne_nm26",
+      "passed": true,
+      "detail": "actual=0.00000000 expected=0.00000000 tol=0"
+    },
+    {
+      "name": "Ca_S_s_nm0",
+      "passed": true,
+      "detail": "actual=4.65400000 expected=4.65400000 tol=1e-09"
+    },
+    {
+      "name": "Ca_S_s_nm6",
+      "passed": true,
+      "detail": "actual=3.58000000 expected=3.58000000 tol=1e-09"
+    },
+    {
+      "name": "Ca_S_s_nm11",
+      "passed": true,
+      "detail": "actual=2.68500000 expected=2.68500000 tol=1e-09"
+    },
+    {
+      "name": "Ca_S_s_nm16",
+      "passed": true,
+      "detail": "actual=1.79000000 expected=1.79000000 tol=1e-09"
+    },
+    {
+      "name": "Ca_S_s_nm21",
+      "passed": true,
+      "detail": "actual=0.89500000 expected=0.89500000 tol=1e-09"
+    },
+    {
+      "name": "Ca_S_s_nm26",
+      "passed": true,
+      "detail": "actual=0.00000000 expected=0.00000000 tol=1e-09"
+    },
+    {
+      "name": "Ca_lam_max_nm0",
+      "passed": true,
+      "detail": "actual=0.21486893 expected=0.21486900 tol=1e-06"
+    },
+    {
+      "name": "Ca_lam_max_nm6",
+      "passed": true,
+      "detail": "actual=0.27932961 expected=0.27933000 tol=1e-06"
+    },
+    {
+      "name": "Ca_lam_max_nm11",
+      "passed": true,
+      "detail": "actual=0.37243948 expected=0.37243900 tol=1e-06"
+    },
+    {
+      "name": "Ca_lam_max_nm16",
+      "passed": true,
+      "detail": "actual=0.55865922 expected=0.55865900 tol=1e-06"
+    },
+    {
+      "name": "Ca_lam_max_nm21",
+      "passed": true,
+      "detail": "actual=1.11731844 expected=1.11731800 tol=1e-06"
+    },
+    {
+      "name": "Ca_lam_max_nm26",
+      "passed": true,
+      "detail": "actual=inf expected=inf tol=1e-06"
+    },
+    {
+      "name": "Ca_cap_x_nm0",
+      "passed": true,
+      "detail": "actual=1.00000000 expected=1.00000000 tol=0.0001"
+    },
+    {
+      "name": "Ca_cap_x_nm6",
+      "passed": true,
+      "detail": "actual=1.30000000 expected=1.30000000 tol=0.0001"
+    },
+    {
+      "name": "Ca_cap_x_nm11",
+      "passed": true,
+      "detail": "actual=1.73333333 expected=1.73330000 tol=0.0001"
+    },
+    {
+      "name": "Ca_cap_x_nm16",
+      "passed": true,
+      "detail": "actual=2.60000000 expected=2.60000000 tol=0.0001"
+    },
+    {
+      "name": "Ca_cap_x_nm21",
+      "passed": true,
+      "detail": "actual=5.20000000 expected=5.20000000 tol=0.0001"
+    },
+    {
+      "name": "Ca_cap_x_nm26",
+      "passed": true,
+      "detail": "actual=inf expected=inf tol=0.0001"
+    },
+    {
+      "name": "Ca_rho_ex_nm0",
+      "passed": true,
+      "detail": "actual=0.93080000 expected=0.93080000 tol=1e-09"
+    },
+    {
+      "name": "Ca_rho_ex_nm6",
+      "passed": true,
+      "detail": "actual=0.71600000 expected=0.71600000 tol=1e-09"
+    },
+    {
+      "name": "Ca_rho_ex_nm11",
+      "passed": true,
+      "detail": "actual=0.53700000 expected=0.53700000 tol=1e-09"
+    },
+    {
+      "name": "Ca_rho_ex_nm16",
+      "passed": true,
+      "detail": "actual=0.35800000 expected=0.35800000 tol=1e-09"
+    },
+    {
+      "name": "Ca_rho_ex_nm21",
+      "passed": true,
+      "detail": "actual=0.17900000 expected=0.17900000 tol=1e-09"
+    },
+    {
+      "name": "Ca_rho_ex_nm26",
+      "passed": true,
+      "detail": "actual=0.00000000 expected=0.00000000 tol=1e-09"
+    },
+    {
+      "name": "Ca_Wq_B0_0.20",
+      "passed": true,
+      "detail": "actual=31.30016763 expected=31.30017000 tol=0.001"
+    },
+    {
+      "name": "Ca_T_B0_0.20",
+      "passed": true,
+      "detail": "actual=36.24582587 expected=36.24580000 tol=0.001"
+    },
+    {
+      "name": "Ca_T_B0_0",
+      "passed": true,
+      "detail": "actual=4.94565824 expected=4.94570000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_lam0_s_nm6",
+      "passed": true,
+      "detail": "actual=6.29327680 expected=6.29330000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_lam0_s_nm11",
+      "passed": true,
+      "detail": "actual=7.36727680 expected=7.36730000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_lam0_s_nm16",
+      "passed": true,
+      "detail": "actual=8.44127680 expected=8.44130000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_lam0_s_nm21",
+      "passed": true,
+      "detail": "actual=9.51527680 expected=9.51530000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_lam0_s_nm26",
+      "passed": true,
+      "detail": "actual=10.58927680 expected=10.58930000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_lam0_s_nm6",
+      "passed": true,
+      "detail": "actual=10.69847680 expected=10.69850000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_lam0_s_nm11",
+      "passed": true,
+      "detail": "actual=15.44347680 expected=15.44350000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_lam0_s_nm16",
+      "passed": true,
+      "detail": "actual=20.18847680 expected=20.18850000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_lam0_s_nm21",
+      "passed": true,
+      "detail": "actual=24.93347680 expected=24.93350000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_lam0_s_nm26",
+      "passed": true,
+      "detail": "actual=29.67847680 expected=29.67850000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_ex_s_nm6",
+      "passed": true,
+      "detail": "actual=10.80609370 expected=10.80610000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_ex_s_nm11",
+      "passed": true,
+      "detail": "actual=8.92434483 expected=8.92430000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_ex_s_nm16",
+      "passed": true,
+      "detail": "actual=8.94035780 expected=8.94040000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_ex_s_nm21",
+      "passed": true,
+      "detail": "actual=9.61284379 expected=9.61280000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_r2.2_ex_s_nm26",
+      "passed": true,
+      "detail": "actual=10.58927680 expected=10.58930000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_ex_s_nm6",
+      "passed": true,
+      "detail": "actual=15.21129370 expected=15.21130000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_ex_s_nm11",
+      "passed": true,
+      "detail": "actual=17.00054483 expected=17.00050000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_ex_s_nm16",
+      "passed": true,
+      "detail": "actual=20.68755780 expected=20.68760000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_ex_s_nm21",
+      "passed": true,
+      "detail": "actual=25.03104379 expected=25.03100000 tol=0.001"
+    },
+    {
+      "name": "Cb_T_T4_ex_s_nm26",
+      "passed": true,
+      "detail": "actual=29.67847680 expected=29.67850000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_r2.2_s_nm6",
+      "passed": true,
+      "detail": "actual=2.36280000 expected=2.36280000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_r2.2_s_nm11",
+      "passed": true,
+      "detail": "actual=4.33180000 expected=4.33180000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_r2.2_s_nm16",
+      "passed": true,
+      "detail": "actual=6.30080000 expected=6.30080000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_r2.2_s_nm21",
+      "passed": true,
+      "detail": "actual=8.26980000 expected=8.26980000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_r2.2_s_nm26",
+      "passed": true,
+      "detail": "actual=10.23880000 expected=10.23880000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_T4_s_nm6",
+      "passed": true,
+      "detail": "actual=6.76800000 expected=6.76800000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_T4_s_nm11",
+      "passed": true,
+      "detail": "actual=12.40800000 expected=12.40800000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_T4_s_nm16",
+      "passed": true,
+      "detail": "actual=18.04800000 expected=18.04800000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_T4_s_nm21",
+      "passed": true,
+      "detail": "actual=23.68800000 expected=23.68800000 tol=0.001"
+    },
+    {
+      "name": "Cb_NMtM_T4_s_nm26",
+      "passed": true,
+      "detail": "actual=29.32800000 expected=29.32800000 tol=0.001"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.0', 6)",
+      "passed": true,
+      "detail": "actual=0.10447916 expected=0.10448000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.0', 6)",
+      "passed": true,
+      "detail": "actual=48.62459989 expected=48.62500000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.0', 11)",
+      "passed": true,
+      "detail": "actual=0.11376123 expected=0.11376000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.0', 11)",
+      "passed": true,
+      "detail": "actual=52.94447558 expected=52.94400000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.0', 16)",
+      "passed": true,
+      "detail": "actual=0.12404685 expected=0.12405000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.0', 16)",
+      "passed": true,
+      "detail": "actual=57.73140252 expected=57.73100000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.0', 21)",
+      "passed": true,
+      "detail": "actual=0.13430117 expected=0.13430000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.0', 21)",
+      "passed": true,
+      "detail": "actual=62.50376630 expected=62.50400000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.0', 26)",
+      "passed": true,
+      "detail": "actual=0.14384437 expected=0.14384000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.0', 26)",
+      "passed": true,
+      "detail": "actual=66.94517081 expected=66.94500000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.2', 6)",
+      "passed": true,
+      "detail": "actual=0.11241230 expected=0.11241000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.2', 6)",
+      "passed": true,
+      "detail": "actual=52.31668611 expected=52.31700000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.2', 11)",
+      "passed": true,
+      "detail": "actual=0.12237188 expected=0.12237000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.2', 11)",
+      "passed": true,
+      "detail": "actual=56.95187402 expected=56.95200000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.2', 16)",
+      "passed": true,
+      "detail": "actual=0.13292956 expected=0.13293000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.2', 16)",
+      "passed": true,
+      "detail": "actual=61.86541725 expected=61.86500000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.2', 21)",
+      "passed": true,
+      "detail": "actual=0.14305385 expected=0.14305000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.2', 21)",
+      "passed": true,
+      "detail": "actual=66.57726250 expected=66.57700000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'r2.2', 26)",
+      "passed": true,
+      "detail": "actual=0.15213854 expected=0.15214000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'r2.2', 26)",
+      "passed": true,
+      "detail": "actual=70.80527713 expected=70.80500000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'T4', 6)",
+      "passed": true,
+      "detail": "actual=0.16859447 expected=0.16859000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'T4', 6)",
+      "passed": true,
+      "detail": "actual=78.46386814 expected=78.46400000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'T4', 11)",
+      "passed": true,
+      "detail": "actual=0.17933639 expected=0.17934000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'T4', 11)",
+      "passed": true,
+      "detail": "actual=83.46315633 expected=83.46300000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'T4', 16)",
+      "passed": true,
+      "detail": "actual=0.18712288 expected=0.18712000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'T4', 16)",
+      "passed": true,
+      "detail": "actual=87.08698749 expected=87.08700000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'T4', 21)",
+      "passed": true,
+      "detail": "actual=0.19255547 expected=0.19256000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'T4', 21)",
+      "passed": true,
+      "detail": "actual=89.61531487 expected=89.61500000 tol=0.002"
+    },
+    {
+      "name": "Cc_lamstar_(0.179, '5G', 0.0, 'T4', 26)",
+      "passed": true,
+      "detail": "actual=0.19639135 expected=0.19639000 tol=2e-05"
+    },
+    {
+      "name": "Cc_ratio_(0.179, '5G', 0.0, 'T4', 26)",
+      "passed": true,
+      "detail": "actual=91.40053362 expected=91.40100000 tol=0.002"
+    },
+    {
+      "name": "Cc_lam_max_B0",
+      "passed": true,
+      "detail": "actual=0.21486893 expected=0.21486900 tol=1e-06"
+    },
+    {
+      "name": "Cd_lamstar_(0.179, 'WiFi', 0.2, 'T4', 6)",
+      "passed": true,
+      "detail": "actual=0.16083456 expected=0.16083000 tol=2e-05"
+    },
+    {
+      "name": "Cd_ratio_(0.179, 'WiFi', 0.2, 'T4', 6)",
+      "passed": true,
+      "detail": "actual=78.06909626 expected=78.06900000 tol=0.002"
+    },
+    {
+      "name": "Cd_lamstar_(0.179, 'WiFi', 0.2, 'T4', 26)",
+      "passed": true,
+      "detail": "actual=0.18757881 expected=0.18758000 tol=2e-05"
+    },
+    {
+      "name": "Cd_ratio_(0.179, 'WiFi', 0.2, 'T4', 26)",
+      "passed": true,
+      "detail": "actual=91.05075377 expected=91.05100000 tol=0.002"
+    },
+    {
+      "name": "Cd_lamstar_(0.179, '4G', 0.0, 'r2.0', 6)",
+      "passed": true,
+      "detail": "actual=0.10791652 expected=0.10792000 tol=2e-05"
+    },
+    {
+      "name": "Cd_ratio_(0.179, '4G', 0.0, 'r2.0', 6)",
+      "passed": true,
+      "detail": "actual=50.22434906 expected=50.22400000 tol=0.002"
+    },
+    {
+      "name": "Cd_lamstar_(0.179, '4G', 0.0, 'r2.0', 26)",
+      "passed": true,
+      "detail": "actual=0.14472348 expected=0.14472000 tol=2e-05"
+    },
+    {
+      "name": "Cd_ratio_(0.179, '4G', 0.0, 'r2.0', 26)",
+      "passed": true,
+      "detail": "actual=67.35430903 expected=67.35400000 tol=0.002"
+    },
+    {
+      "name": "Cd_lamstar_(0.179, '5G', 0.2, 'r2.2', 11)",
+      "passed": true,
+      "detail": "actual=0.11637288 expected=0.11637000 tol=2e-05"
+    },
+    {
+      "name": "Cd_ratio_(0.179, '5G', 0.2, 'r2.2', 11)",
+      "passed": true,
+      "detail": "actual=56.48739517 expected=56.48700000 tol=0.002"
+    },
+    {
+      "name": "Cd_lamstar_(0.179, '5G', 0.2, 'r2.2', 26)",
+      "passed": true,
+      "detail": "actual=0.14408531 expected=0.14409000 tol=2e-05"
+    },
+    {
+      "name": "Cd_ratio_(0.179, '5G', 0.2, 'r2.2', 26)",
+      "passed": true,
+      "detail": "actual=69.93900767 expected=69.93900000 tol=0.002"
+    },
+    {
+      "name": "Cd_lam_max_B0_s0=0.2",
+      "passed": true,
+      "detail": "actual=0.20601566 expected=0.20601600 tol=1e-06"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'r2.2', 6)",
+      "passed": true,
+      "detail": "actual=0.11638204 expected=0.11638000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'r2.2', 6)",
+      "passed": true,
+      "detail": "actual=52.34864187 expected=52.34900000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'r2.2', 11)",
+      "passed": true,
+      "detail": "actual=0.12665782 expected=0.12666000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'r2.2', 11)",
+      "passed": true,
+      "detail": "actual=56.97068537 expected=56.97100000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'r2.2', 16)",
+      "passed": true,
+      "detail": "actual=0.13756926 expected=0.13757000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'r2.2', 16)",
+      "passed": true,
+      "detail": "actual=61.87865150 expected=61.87900000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'r2.2', 21)",
+      "passed": true,
+      "detail": "actual=0.14803714 expected=0.14804000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'r2.2', 21)",
+      "passed": true,
+      "detail": "actual=66.58710589 expected=66.58700000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'r2.2', 26)",
+      "passed": true,
+      "detail": "actual=0.15743163 expected=0.15743000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'r2.2', 26)",
+      "passed": true,
+      "detail": "actual=70.81274713 expected=70.81300000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'T4', 6)",
+      "passed": true,
+      "detail": "actual=0.17567609 expected=0.17568000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'T4', 6)",
+      "passed": true,
+      "detail": "actual=79.01910323 expected=79.01900000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'T4', 11)",
+      "passed": true,
+      "detail": "actual=0.18668839 expected=0.18669000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'T4', 11)",
+      "passed": true,
+      "detail": "actual=83.97243964 expected=83.97200000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'T4', 16)",
+      "passed": true,
+      "detail": "actual=0.19458450 expected=0.19458000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'T4', 16)",
+      "passed": true,
+      "detail": "actual=87.52410923 expected=87.52400000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'T4', 21)",
+      "passed": true,
+      "detail": "actual=0.20005261 expected=0.20005000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'T4', 21)",
+      "passed": true,
+      "detail": "actual=89.98366475 expected=89.98400000 tol=0.002"
+    },
+    {
+      "name": "Ce_lamstar_(0.173, '5G', 0.0, 'T4', 26)",
+      "passed": true,
+      "detail": "actual=0.20389656 expected=0.20390000 tol=2e-05"
+    },
+    {
+      "name": "Ce_ratio_(0.173, '5G', 0.0, 'T4', 26)",
+      "passed": true,
+      "detail": "actual=91.71267213 expected=91.71300000 tol=0.002"
+    },
+    {
+      "name": "Ce_lam_max_B0_tau0.173",
+      "passed": true,
+      "detail": "actual=0.22232103 expected=0.22232100 tol=1e-06"
+    },
+    {
+      "name": "Cf_ratio_r1.0_nm6",
+      "passed": true,
+      "detail": "actual=5.72212418 expected=5.72200000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r1.0_nm16",
+      "passed": true,
+      "detail": "actual=2.87236407 expected=2.87200000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r1.0_nm26",
+      "passed": true,
+      "detail": "actual=2.46534087 expected=2.46500000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r4.0_nm6",
+      "passed": true,
+      "detail": "actual=69.68409653 expected=69.68400000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r4.0_nm16",
+      "passed": true,
+      "detail": "actual=79.53797599 expected=79.53800000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r4.0_nm26",
+      "passed": true,
+      "detail": "actual=85.76568494 expected=85.76600000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r10.0_nm6",
+      "passed": true,
+      "detail": "actual=84.91198283 expected=84.91200000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r10.0_nm16",
+      "passed": true,
+      "detail": "actual=91.87810053 expected=91.87800000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r10.0_nm26",
+      "passed": true,
+      "detail": "actual=94.74383462 expected=94.74400000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r12.0_nm6",
+      "passed": true,
+      "detail": "actual=86.93688467 expected=86.93700000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r12.0_nm16",
+      "passed": true,
+      "detail": "actual=93.23353412 expected=93.23400000 tol=0.002"
+    },
+    {
+      "name": "Cf_ratio_r12.0_nm26",
+      "passed": true,
+      "detail": "actual=95.65694685 expected=95.65700000 tol=0.002"
+    },
+    {
+      "name": "Cf_r0.5_nm26_all_split",
+      "passed": true,
+      "detail": "all_split=True lam_star=0.0"
+    },
+    {
+      "name": "Cg_link_effect<=2.0pp",
+      "passed": true,
+      "detail": "1.5997 pp at r2.0, nm=6, s0=0.0, 4G vs 5G (ref 1.5997 at r2.0, nm=6, s0=0, 4G)"
+    },
+    {
+      "name": "Cg_s0_effect<=1.0pp",
+      "passed": true,
+      "detail": "0.9271 pp at r2.0, nm=26, WiFi, s0=0.2 vs 0.0 (ref 0.9271 at r2.0, nm=26, WiFi)"
+    },
+    {
+      "name": "Ch_b0_S",
+      "passed": true,
+      "detail": "actual=4.65400000 expected=4.65400000 tol=1e-09"
+    },
+    {
+      "name": "Ch_b0_rho",
+      "passed": true,
+      "detail": "actual=0.93080000 expected=0.93080000 tol=1e-09"
+    },
+    {
+      "name": "Ch_b0_Wq",
+      "passed": true,
+      "detail": "actual=31.30016763 expected=31.30020000 tol=0.001"
+    },
+    {
+      "name": "Ch_b0_comm",
+      "passed": true,
+      "detail": "actual=0.29165824 expected=0.29166000 tol=1e-05"
+    },
+    {
+      "name": "Ch_b0_T",
+      "passed": true,
+      "detail": "actual=36.24582587 expected=36.24580000 tol=0.001"
+    },
+    {
+      "name": "Ch_n6_S",
+      "passed": true,
+      "detail": "actual=3.58000000 expected=3.58000000 tol=1e-09"
+    },
+    {
+      "name": "Ch_n6_rho",
+      "passed": true,
+      "detail": "actual=0.71600000 expected=0.71600000 tol=1e-09"
+    },
+    {
+      "name": "Ch_n6_Wq",
+      "passed": true,
+      "detail": "actual=4.51281690 expected=4.51280000 tol=0.001"
+    },
+    {
+      "name": "Ch_n6_NMtM",
+      "passed": true,
+      "detail": "actual=2.36280000 expected=2.36280000 tol=0.001"
+    },
+    {
+      "name": "Ch_n6_comm",
+      "passed": true,
+      "detail": "actual=0.35047680 expected=0.35048000 tol=1e-05"
+    },
+    {
+      "name": "Ch_n6_T",
+      "passed": true,
+      "detail": "actual=10.80609370 expected=10.80610000 tol=0.001"
+    },
+    {
+      "name": "Ci_lam_i0",
+      "passed": true,
+      "detail": "actual=0.00500000 expected=0.00500000 tol=1e-06"
+    },
+    {
+      "name": "Ci_T_B0_i0",
+      "passed": true,
+      "detail": "actual=5.00109760 expected=5.00110000 tol=0.001"
+    },
+    {
+      "name": "Ci_T_NM6_r2.2_i0",
+      "passed": true,
+      "detail": "actual=6.32590179 expected=6.32590000 tol=0.001"
+    },
+    {
+      "name": "Ci_T_NM26_T4_i0",
+      "passed": true,
+      "detail": "actual=29.67847680 expected=29.67848000 tol=0.001"
+    },
+    {
+      "name": "Ci_lam_i119",
+      "passed": true,
+      "detail": "actual=0.21272024 expected=0.21272024 tol=1e-06"
+    },
+    {
+      "name": "Ci_T_B0_i119",
+      "passed": true,
+      "detail": "actual=235.31865824 expected=235.31866000 tol=0.001"
+    },
+    {
+      "name": "Ci_T_NM6_r2.2_i119",
+      "passed": true,
+      "detail": "actual=12.00972841 expected=12.00973000 tol=0.001"
+    },
+    {
+      "name": "Ci_T_NM26_T4_i119",
+      "passed": true,
+      "detail": "actual=29.67847680 expected=29.67848000 tol=0.001"
+    },
+    {
+      "name": "Ci_rho_B0_i119",
+      "passed": true,
+      "detail": "actual=0.99000000 expected=0.99000000 tol=1e-09"
+    },
+    {
+      "name": "Ci_Wq_B0_i119",
+      "passed": true,
+      "detail": "actual=230.37300000 expected=230.37300000 tol=0.001"
+    },
+    {
+      "name": "D_lamstar_bracket_and_monotone",
+      "passed": true,
+      "detail": "n=433 failed=[]"
+    },
+    {
+      "name": "D_T_equal_at_lamstar<1e-9",
+      "passed": true,
+      "detail": "max|diff|=2.558e-13 at rsweep r=11.6 nm=26"
+    },
+    {
+      "name": "D_lam_max*S=1(<1e-12)",
+      "passed": true,
+      "detail": "max err=1.110e-16"
+    },
+    {
+      "name": "D_cap_increasing_tau0.179_s00",
+      "passed": true,
+      "detail": "caps=['1.3000', '1.7333', '2.6000', '5.2000', 'inf']"
+    },
+    {
+      "name": "D_cap_increasing_tau0.179_s00.2",
+      "passed": true,
+      "detail": "caps=['1.2841', '1.6825', '2.4392', '4.4329', '24.2700']"
+    },
+    {
+      "name": "D_cap_increasing_tau0.173_s00",
+      "passed": true,
+      "detail": "caps=['1.3000', '1.7333', '2.6000', '5.2000', 'inf']"
+    },
+    {
+      "name": "D_cap_increasing_tau0.173_s00.2",
+      "passed": true,
+      "detail": "caps=['1.2836', '1.6809', '2.4342', '4.4113', '23.4900']"
+    },
+    {
+      "name": "D_rsweep_ratio_nondecreasing_nm6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "D_rsweep_ratio_nondecreasing_nm16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "D_rsweep_ratio_nondecreasing_nm26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "D_rows_table1",
+      "passed": true,
+      "detail": "rows=6 expected=6"
+    },
+    {
+      "name": "D_rows_lamstar_table",
+      "passed": true,
+      "detail": "rows=100 expected=100"
+    },
+    {
+      "name": "D_rows_T_vs_lambda",
+      "passed": true,
+      "detail": "rows=960 expected=960"
+    },
+    {
+      "name": "D_rows_lamstar_vs_r",
+      "passed": true,
+      "detail": "rows=333 expected=333"
+    },
+    {
+      "name": "E_sim_rho0.5_relerr<=2%",
+      "passed": true,
+      "detail": "sim=0.50124 formula=0.50000 rel_err=0.2484%"
+    },
+    {
+      "name": "E_sim_rho0.7_relerr<=2%",
+      "passed": true,
+      "detail": "sim=1.16922 formula=1.16667 rel_err=0.2193%"
+    }
+  ],
+  "sim_sanity": [
+    {
+      "rho": 0.5,
+      "S": 1.0,
+      "seed": 20261011,
+      "n_customers": 2000000,
+      "warmup": 20000,
+      "Wq_sim": 0.501242,
+      "Wq_formula": 0.5,
+      "rel_err": 0.002484
+    },
+    {
+      "rho": 0.7,
+      "S": 1.0,
+      "seed": 20261011,
+      "n_customers": 2000000,
+      "warmup": 20000,
+      "Wq_sim": 1.169225,
+      "Wq_formula": 1.166667,
+      "rel_err": 0.002193
+    }
+  ]
+}

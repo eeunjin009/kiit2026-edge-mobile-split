@@ -1,0 +1,25 @@
+# 실험 환경: Kaggle, Python 3.9.25, NVIDIA Tesla T4 (CUDA 12.1)
+# Kaggle 노트북은 build/d9_kaggle.py의 PINS로 패키지를 자동 설치합니다.
+# numpy, Pillow는 PINS에 버전이 없어 실험 때 기록된 버전을 적었습니다.
+# 버전이 없는 줄은 실험 때 고정하지 않은 패키지입니다.
+# analysis/의 두 스크립트는 표준 라이브러리만 쓰므로 이 파일이 필요 없습니다.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+numpy==1.26.4
+diffusers==0.27.0
+huggingface_hub==0.24.7
+transformers==4.44.2
+peft==0.2.0
+scikit-learn==1.5.1
+pandas==2.2.1
+torch-fidelity==0.3.0
+pytorch-fid==0.3.0
+open_clip_torch==3.3.0
+Pillow==11.3.0
+pytorch_lightning
+einops
+accelerate
+safetensors
+pyyaml
+pynvml
